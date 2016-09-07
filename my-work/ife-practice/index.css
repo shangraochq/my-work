@@ -41,11 +41,17 @@ a:visited{
 	color: white;
 	text-decoration: none;
 }
+
 a:hover{
 	color: #C9BABE;
 	text-decoration: underline;
 }
-
+a:active{
+	color: red;
+}
+input:focus{
+	border: thin solid red;
+}
 
 
 #header{
@@ -900,7 +906,12 @@ body{
 	float: left;
 	width: 490px;
 }
-
+abbr[title]{
+	border-bottom: 1px dotted #999;
+}
+abbr[title]:hover{
+    cursor: help;
+}
 
 
 	
