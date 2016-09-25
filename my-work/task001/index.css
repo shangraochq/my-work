@@ -63,8 +63,7 @@ input:focus{
 
 #header .head{
     width: 980px;
-    margin-right: auto;
-    margin-left: auto;
+    margin: 0 auto;
     color: white;
 }
 
@@ -77,9 +76,7 @@ input:focus{
 }
 #header .head .logo{
 	float: left;
-	
 	margin-top: 10px;
-	
 }
 #header .head .logo img{
 	height: 70px;
@@ -114,10 +111,8 @@ input:focus{
     margin-right: auto;
 }
 #footer .nav-footer table td{
-
 	padding-right: 14px;
 	padding-left: 14px;
-
 }
 #footer .link table{
 	margin-left: auto;
@@ -154,16 +149,13 @@ input:focus{
 
 
 /*index*/
-
+#pic .pic-wrap{
+    position: relative;
+}
 #pic .pic-wrap .picture{
     width: 100%;
     height: 530px;
-   
     width: 100%;
-    
-}
-#pic .pic-wrap{
-    position: relative;
 }
 #pic .pic-wrap .pic-para{
 	width: 350px;
@@ -194,8 +186,6 @@ input:focus{
 #main{
 	width: 100%;
 	height: 495px;
-	margin-right: auto;
-	margin-left: auto;
 	background-color: #EFEDED;
 }
 #main .content{
@@ -203,7 +193,6 @@ input:focus{
 	margin-left: auto;
 	margin-right: auto;
 	background-color: #EFEDED;
-
 }
 #main .content .gakiki{
 	width: 320px;
@@ -211,10 +200,6 @@ input:focus{
 	float: left;
 	height: 380px;
 	margin: 10px 0 0 0px;
-    
-	-webkit-box-sizing: border-box;
-	   -moz-box-sizing: border-box;
-	        box-sizing: border-box;
 }
 #main .content .bbh{
 	width: 320px;
@@ -222,9 +207,6 @@ input:focus{
 	float: left;
 	height: 380px;
 	margin: 10px 10px 0 10px; 
-	-webkit-box-sizing: border-box;
-	   -moz-box-sizing: border-box;
-	        box-sizing: border-box;
 }
 #main .content .czym{
 	width: 320px;
@@ -232,17 +214,12 @@ input:focus{
 	float: left;
 	height: 380px;
 	margin: 10px 0 0 0; 
-	-webkit-box-sizing: border-box;
-	   -moz-box-sizing: border-box;
-	        box-sizing: border-box;
 }
 #main .nvshen{
 	margin: 10px;
 }
-#main .test {
+#main .decri {
 	margin: 5px 30px 25px 30px;
-	
-
 }
 #main .content p{
 	font-size: 12px;
@@ -277,7 +254,6 @@ input:focus{
 	font-size: 14px;
 	text-indent: 2em;
 	line-height: 1.7em;
-
 }
 #intro .wrap .photo{
     text-align: center;
@@ -289,13 +265,11 @@ input:focus{
 /*blog start*/
 body{
 	background-color: #eee;
-
 }
 #box{
 	width: 980px;
 	margin-left: auto;
 	margin-right: auto;
-    
 }
 #box .arti{
 	background-color: white;
@@ -323,7 +297,6 @@ body{
 	margin-top: 30px;
 	color: #837C7C;
 	font-size: 12px;
-    
 }
 #fir,#sec,#thi{
 	position: relative;
@@ -332,7 +305,6 @@ body{
 	margin-bottom: 0;
 }
 #box .data{
-    
 	background-color: #56081E;
 	padding: 10px;
 	width: 60px;
@@ -345,7 +317,6 @@ body{
     text-align: center;
 }
 #box .cate{
-   
 	padding: 10px;
 	background-color: #A62CDD;
 	width: 60px;
@@ -358,7 +329,6 @@ body{
     color: white;
 }
 
-
 /*page start*/
 #box .page{
     margin-bottom: 300px;
@@ -369,14 +339,10 @@ body{
 	border-collapse: separate;
     margin: 0 auto;
     border-spacing: 8px 0;
-   
-    
 }
 #box .page table td{
     background-color: white;
     padding: 10px 15px;
-    
-
 }
 #box .page table .select{
 	background-color: #7A2294;
@@ -397,7 +363,6 @@ body{
 	margin-top: 10px;
 	padding: 20px 25px;
 	margin-left: 720px;
-	
 	position: relative;
 }
  .search .text{
@@ -406,7 +371,6 @@ body{
 	background-image: url(img/search.png);
 	background-repeat: no-repeat;
 	padding-left: 50px;
-
 }
  .search button{
 	width: 50px; 
@@ -415,7 +379,6 @@ body{
 	top: 20px;
     left: 185px;
 }
-
 #box .list{
 	background-color: white;
     margin-left: 720px;
@@ -423,7 +386,6 @@ body{
 }
 #box .list a{
 	display: block;
-    color: black;
     text-decoration: none;
     border-left: 4px solid #E590D8;
     border-bottom: 1px solid #ddd;
@@ -436,7 +398,6 @@ body{
 #box .list a:hover{
 	border-left: 4px solid #390558;
 }
-
 #box .date{
 	padding: 20px;
 	background-color: white;
@@ -444,7 +405,6 @@ body{
 	margin-top: 10px;
 	text-align: center;
 	font-size: 13px;
-
 }
 #box .date a{
 	color: #7F2BC0;
@@ -458,19 +418,16 @@ body{
 #box .date table{
 	margin: 10px auto 0 auto;
     color: #666;
-    
 }
 #box .date table tr {
     padding: 3px;
     border-bottom: 1px solid #e5e5e5;
 }
 #box .date table td{
-	
 	padding: 8px;
-	
 }
 #box .date table .today{
-	padding: 4px 3px;
+	padding: 4px 0px;
 }
 #box .date table .today span{
 	display: inline-block;
@@ -514,20 +471,16 @@ body{
 /*gallery*/
 #g-main{
 	width: 980px;
-	
-	
     margin: 0 auto;
 }
 #g-main .menu{
 	float: left;
 	margin-top: 20px;
 	color: #000;
-	
 }
 #g-main .java,.ui,.fame,.app{
 	border-left: thin solid #E4E4E4;
 	border-bottom: thin solid #E4E4E4;
-
 }
 #g-main .menu a{
 	color: #000;
@@ -630,7 +583,6 @@ body{
     margin-right: 10px;
 }
 #g-main .left .fir .f6{
-    
     color: #fff;
     font-size: 14px;
     float: left;
@@ -647,7 +599,6 @@ body{
 #g-main .left .sec .f7{
     background-color: #2C9615;
     color: #fff;
-    
     font-size: 14px;
     width: 160px;
     margin-bottom: 10px;
@@ -694,7 +645,6 @@ body{
 }
 #g-main .left .more{
 	background-color: #fff;
-	
 	text-align: center;
 	padding: 10px 0;
 	clear: both;
@@ -704,16 +654,16 @@ body{
     font-size: 13px;
     text-decoration: none;
 }
-#g-main .search{
-	position: relative;
-	top: 76px;
-}
+
 #g-main .left .block1{
 	height: 60px;
 	background-color: #E9E5E5;
 	clear: both;
 }
-
+#g-main .search{
+	position: relative;
+	top: 76px;
+}
 .rank{
 	position: relative;
 	top: 80px;
@@ -768,7 +718,7 @@ body{
 	z-index: -2;
 }
 
-}
+
 #a-main  img{
 	display: block;
     
